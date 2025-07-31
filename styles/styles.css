@@ -180,7 +180,7 @@
     justify-content: space-between;
     padding-inline: 32px;
     max-width: unset;
-    margin: unset;
+    margin-block: 50px;
   }
   #es-rc #es-rc-content .es-benefits__single {
     max-width: 33%;
