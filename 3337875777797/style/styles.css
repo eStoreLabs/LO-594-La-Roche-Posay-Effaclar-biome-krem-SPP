@@ -1,5 +1,5 @@
 #es-rc #es-rc-content {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
@@ -8,6 +8,7 @@
   padding: 0;
   overflow: hidden;
   background: #fff;
+  color: #000000;
 }
 #es-rc #es-rc-content * {
   box-sizing: border-box;
@@ -214,7 +215,7 @@
     max-width: unset;
     margin-block: 50px;
     -moz-column-gap: 10px;
-         column-gap: 10px;
+    column-gap: 10px;
   }
   #es-rc #es-rc-content .es-benefits__single {
     max-width: 33%;
@@ -431,7 +432,13 @@
   color: #000;
   background-color: #fff;
 }
-#es-rc #es-rc-content .es-cross__single:nth-child(2) .es-cross__single--img img, #es-rc #es-rc-content .es-cross__single:nth-child(4) .es-cross__single--img img, #es-rc #es-rc-content .es-cross__single:nth-child(5) .es-cross__single--img img {
+#es-rc #es-rc-content .es-cross__single:nth-child(2) .es-cross__single--img img,
+#es-rc #es-rc-content .es-cross__single:nth-child(4) .es-cross__single--img img,
+#es-rc
+  #es-rc-content
+  .es-cross__single:nth-child(5)
+  .es-cross__single--img
+  img {
   max-height: 230px;
 }
 #es-rc #es-rc-content .es-cross__single--text--wrapper {
@@ -502,7 +509,7 @@
 #es-rc #es-rc-content .es-swiper1 .swiper-pagination-bullet {
   opacity: 0.1;
 }
-#es-rc #es-rc-content .es-swiper1 .swiper-pagination-bullet-active {
+#es-rc #es-rc-content .es-swiper1 .swiper-pagination-bullet-es-active {
   background: #49a1b7;
   opacity: 1;
 }
@@ -517,8 +524,14 @@
 #es-rc #es-rc-content .es-swiper1 .swiper-button-next.es-swiper1-button-next {
   right: 36px;
 }
-#es-rc #es-rc-content .es-swiper1 .swiper-button-prev.es-swiper1-button-prev::after,
-#es-rc #es-rc-content .es-swiper1 .swiper-button-next.es-swiper1-button-next::after {
+#es-rc
+  #es-rc-content
+  .es-swiper1
+  .swiper-button-prev.es-swiper1-button-prev::after,
+#es-rc
+  #es-rc-content
+  .es-swiper1
+  .swiper-button-next.es-swiper1-button-next::after {
   font-size: 22px;
   font-weight: 900;
   color: #49a1b7;
@@ -597,10 +610,10 @@
     align-items: flex-end;
   }
 }
-@media (min-width: 1200px) and (max-width: 1200px) {
+@media (min-width: 1200px) {
   #es-rc #es-rc-content .es-products__single {
     font-size: 32px;
-    height: 370px;
+    height: 330px;
   }
   #es-rc #es-rc-content .es-products__single .es-white-text {
     font-size: 34px;
@@ -609,7 +622,7 @@
     margin-left: 4%;
   }
   #es-rc #es-rc-content .es-products__single--img img {
-    max-width: 70%;
+    max-width: 85%;
     margin: 0;
   }
 }
@@ -618,7 +631,7 @@
     margin-left: 0%;
   }
   #es-rc #es-rc-content .es-products__single--img img {
-    max-height: 245px;
+    max-height: 270px;
   }
   #es-rc #es-rc-content .es-products__single--text {
     bottom: 82px;
@@ -716,11 +729,17 @@
 #es-rc #es-rc-content .es-swiper2 .es-products-mobile .es-products__single {
   height: 420px;
 }
-#es-rc #es-rc-content .es-swiper2 .swiper-button-next#es-swiper2-button-next__top {
+#es-rc
+  #es-rc-content
+  .es-swiper2
+  .swiper-button-next#es-swiper2-button-next__top {
   top: 4%;
   right: 10px;
 }
-#es-rc #es-rc-content .es-swiper2 .swiper-button-next#es-swiper2-button-next__top::after {
+#es-rc
+  #es-rc-content
+  .es-swiper2
+  .swiper-button-next#es-swiper2-button-next__top::after {
   font-size: 22px;
   font-weight: 900;
   color: #fff;
@@ -732,7 +751,7 @@
 #es-rc #es-rc-content .es-swiper2 .swiper-pagination-bullet {
   opacity: 0.1;
 }
-#es-rc #es-rc-content .es-swiper2 .swiper-pagination-bullet-active {
+#es-rc #es-rc-content .es-swiper2 .swiper-pagination-bullet-es-active {
   background: #49a1b7;
   opacity: 1;
 }
@@ -747,8 +766,14 @@
 #es-rc #es-rc-content .es-swiper2 .swiper-button-next.es-swiper2-button-next {
   right: 86px;
 }
-#es-rc #es-rc-content .es-swiper2 .swiper-button-prev.es-swiper2-button-prev::after,
-#es-rc #es-rc-content .es-swiper2 .swiper-button-next.es-swiper2-button-next::after {
+#es-rc
+  #es-rc-content
+  .es-swiper2
+  .swiper-button-prev.es-swiper2-button-prev::after,
+#es-rc
+  #es-rc-content
+  .es-swiper2
+  .swiper-button-next.es-swiper2-button-next::after {
   font-size: 22px;
   font-weight: 900;
   color: #49a1b7;
@@ -862,7 +887,7 @@
   margin: auto 0;
   transition: all 0.3s ease-out;
 }
-#es-rc #es-rc-content .es-qa .es-accordion .active .es-accordion__arrow {
+#es-rc #es-rc-content .es-qa .es-accordion .es-active .es-accordion__arrow {
   transform: rotate(180deg);
 }
 @media (min-width: 1200px) {
@@ -871,7 +896,7 @@
     bottom: unset;
     transform: translateY(-50%);
   }
-  #es-rc #es-rc-content .es-qa .es-accordion .active .es-accordion__arrow {
+  #es-rc #es-rc-content .es-qa .es-accordion .es-active .es-accordion__arrow {
     transform: translateY(-50%) rotate(180deg);
   }
 }
@@ -905,4 +930,4 @@
   #es-rc #es-rc-content {
     max-width: 731px;
   }
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
